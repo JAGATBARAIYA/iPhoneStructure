@@ -11,6 +11,14 @@
 		583105E1192A0DD5002B2806 /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 583105E0192A0DD5002B2806 /* DBHelper.m */; };
 		583105EB192A3D19002B2806 /* WebClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 583105E9192A3D19002B2806 /* WebClient.m */; };
 		5889E57318D18DC00081DEC4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5889E57218D18DC00081DEC4 /* MessageUI.framework */; };
+		5895FBC0192C704200155C11 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5895FBB2192C704200155C11 /* CXMLDocument.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5895FBC1192C704200155C11 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5895FBB4192C704200155C11 /* CXMLDocument_PrivateExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5895FBC2192C704200155C11 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5895FBB6192C704200155C11 /* CXMLElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5895FBC3192C704200155C11 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5895FBB8192C704200155C11 /* CXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5895FBC4192C704200155C11 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5895FBBA192C704200155C11 /* CXMLNode_PrivateExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5895FBC5192C704200155C11 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5895FBBC192C704200155C11 /* CXMLNode_XPathExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5895FBC6192C704200155C11 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5895FBBF192C704200155C11 /* XMLParser.m */; };
+		5895FBC8192C708500155C11 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5895FBC7192C708500155C11 /* libxml2.dylib */; };
 		58E60C1E18AF86C9009DC1E0 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58E60C1D18AF86C9009DC1E0 /* Window.xib */; };
 		58E60C8D18AF889B009DC1E0 /* MSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E60C2718AF889B009DC1E0 /* MSButton.m */; };
 		58E60C8E18AF889B009DC1E0 /* MSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E60C2918AF889B009DC1E0 /* MSLabel.m */; };
@@ -73,6 +81,22 @@
 		583105E9192A3D19002B2806 /* WebClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebClient.m; sourceTree = "<group>"; };
 		583105EA192A3D19002B2806 /* WebKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebKit.h; sourceTree = "<group>"; };
 		5889E57218D18DC00081DEC4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5895FBB1192C704200155C11 /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		5895FBB2192C704200155C11 /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		5895FBB3192C704200155C11 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		5895FBB4192C704200155C11 /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		5895FBB5192C704200155C11 /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		5895FBB6192C704200155C11 /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		5895FBB7192C704200155C11 /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		5895FBB8192C704200155C11 /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		5895FBB9192C704200155C11 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		5895FBBA192C704200155C11 /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		5895FBBB192C704200155C11 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		5895FBBC192C704200155C11 /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		5895FBBD192C704200155C11 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		5895FBBE192C704200155C11 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		5895FBBF192C704200155C11 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		5895FBC7192C708500155C11 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		58E60C1D18AF86C9009DC1E0 /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Window.xib; path = ../Window.xib; sourceTree = "<group>"; };
 		58E60C2418AF889B009DC1E0 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		58E60C2618AF889B009DC1E0 /* MSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSButton.h; sourceTree = "<group>"; };
@@ -153,6 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5895FBC8192C708500155C11 /* libxml2.dylib in Frameworks */,
 				5889E57318D18DC00081DEC4 /* MessageUI.framework in Frameworks */,
 				58F5F06A1849B232003D01E0 /* CoreGraphics.framework in Frameworks */,
 				58F5F06C1849B232003D01E0 /* UIKit.framework in Frameworks */,
@@ -193,9 +218,32 @@
 			path = WebClient;
 			sourceTree = "<group>";
 		};
+		5895FBB0192C704200155C11 /* XMLParsing */ = {
+			isa = PBXGroup;
+			children = (
+				5895FBB1192C704200155C11 /* CXMLDocument.h */,
+				5895FBB2192C704200155C11 /* CXMLDocument.m */,
+				5895FBB3192C704200155C11 /* CXMLDocument_PrivateExtensions.h */,
+				5895FBB4192C704200155C11 /* CXMLDocument_PrivateExtensions.m */,
+				5895FBB5192C704200155C11 /* CXMLElement.h */,
+				5895FBB6192C704200155C11 /* CXMLElement.m */,
+				5895FBB7192C704200155C11 /* CXMLNode.h */,
+				5895FBB8192C704200155C11 /* CXMLNode.m */,
+				5895FBB9192C704200155C11 /* CXMLNode_PrivateExtensions.h */,
+				5895FBBA192C704200155C11 /* CXMLNode_PrivateExtensions.m */,
+				5895FBBB192C704200155C11 /* CXMLNode_XPathExtensions.h */,
+				5895FBBC192C704200155C11 /* CXMLNode_XPathExtensions.m */,
+				5895FBBD192C704200155C11 /* TouchXML.h */,
+				5895FBBE192C704200155C11 /* XMLParser.h */,
+				5895FBBF192C704200155C11 /* XMLParser.m */,
+			);
+			path = XMLParsing;
+			sourceTree = "<group>";
+		};
 		58E60C1F18AF889B009DC1E0 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				5895FBB0192C704200155C11 /* XMLParsing */,
 				583105DE192A0DD5002B2806 /* Database */,
 				58E60CB618AF8CD7009DC1E0 /* Messages */,
 				58E60C2318AF889B009DC1E0 /* Common */,
@@ -429,6 +477,7 @@
 		58F5F0661849B232003D01E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5895FBC7192C708500155C11 /* libxml2.dylib */,
 				5889E57218D18DC00081DEC4 /* MessageUI.framework */,
 				58F5F0671849B232003D01E0 /* Foundation.framework */,
 				58F5F0691849B232003D01E0 /* CoreGraphics.framework */,
@@ -639,13 +688,19 @@
 			files = (
 				58E60CA318AF889B009DC1E0 /* Loader.m in Sources */,
 				58E60C8D18AF889B009DC1E0 /* MSButton.m in Sources */,
+				5895FBC5192C704200155C11 /* CXMLNode_XPathExtensions.m in Sources */,
+				5895FBC2192C704200155C11 /* CXMLElement.m in Sources */,
+				5895FBC4192C704200155C11 /* CXMLNode_PrivateExtensions.m in Sources */,
 				58E60CA718AF889B009DC1E0 /* TKAlertCenter.m in Sources */,
 				58016ED118C4639600A1B6E7 /* UIViewAdditions.m in Sources */,
 				58E60C9118AF889B009DC1E0 /* TextViewWithPlaceholder.m in Sources */,
+				5895FBC3192C704200155C11 /* CXMLNode.m in Sources */,
 				58E60CF218AF9593009DC1E0 /* UIDevice+extras.m in Sources */,
 				58E60CF518AF9593009DC1E0 /* UIImage+Resize.m in Sources */,
+				5895FBC1192C704200155C11 /* CXMLDocument_PrivateExtensions.m in Sources */,
 				58E60CA218AF889B009DC1E0 /* Helper.m in Sources */,
 				58E60CA018AF889B009DC1E0 /* UIViewController+Orientation.m in Sources */,
+				5895FBC6192C704200155C11 /* XMLParser.m in Sources */,
 				58E60CEE18AF9593009DC1E0 /* NSString+extras.m in Sources */,
 				58E60CED18AF9593009DC1E0 /* NSObject+Extras.m in Sources */,
 				583105E1192A0DD5002B2806 /* DBHelper.m in Sources */,
@@ -665,6 +720,7 @@
 				58E60CF418AF9593009DC1E0 /* UIImage+extras.m in Sources */,
 				58F5F0A21849B255003D01E0 /* AppDelegate.m in Sources */,
 				58E60CEB18AF9593009DC1E0 /* NSDate+extras.m in Sources */,
+				5895FBC0192C704200155C11 /* CXMLDocument.m in Sources */,
 				58E60C9F18AF889B009DC1E0 /* UINavigationController+autorotate.m in Sources */,
 				583105EB192A3D19002B2806 /* WebClient.m in Sources */,
 				58E60CA818AF889B009DC1E0 /* UIView+TKCategory.m in Sources */,
@@ -741,8 +797,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Xcode5/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -773,7 +838,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Xcode5/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -787,8 +861,31 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhoneStructure/iPhoneStructure-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/FCModel\"",
+					"\"${PODS_ROOT}/Headers/FMDB\"",
+					"\"${PODS_ROOT}/Headers/SDWebImage\"",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "iPhoneStructure/iPhoneStructure-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lsqlite3",
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					ImageIO,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-lxml2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -802,8 +899,31 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPhoneStructure/iPhoneStructure-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/FCModel\"",
+					"\"${PODS_ROOT}/Headers/FMDB\"",
+					"\"${PODS_ROOT}/Headers/SDWebImage\"",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "iPhoneStructure/iPhoneStructure-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lsqlite3",
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					ImageIO,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-lxml2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

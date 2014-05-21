@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3D27B1F1-6B20-41FF-9591-38FA206878C2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iPhoneStructure</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>49BC7917-1EC7-4EAF-8493-C87C88C09F44</key>
+		<string>https://github.com/MSiOSDeveloper/iPhoneStructure.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iPhoneStructure.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>49BC7917-1EC7-4EAF-8493-C87C88C09F44</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MSiOSDeveloper/iPhoneStructure.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>49BC7917-1EC7-4EAF-8493-C87C88C09F44</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>49BC7917-1EC7-4EAF-8493-C87C88C09F44</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iPhoneStructure</string>
+		</dict>
+	</array>
+</dict>
+</plist>
